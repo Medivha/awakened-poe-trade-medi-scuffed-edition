@@ -8427,3 +8427,537 @@
 {"ref":"Zealotry has #% increased Aura Effect","better":1,"matchers":[{"string":"Zealotry has #% increased Aura Effect"},{"string":"Zealotry has #% reduced Aura Effect","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_4096052153"],"implicit":["implicit.stat_4096052153"],"fractured":["fractured.stat_4096052153"]}}}
 {"ref":"Zealotry has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"Zealotry has #% increased Mana Reservation Efficiency"},{"string":"Zealotry has #% reduced Mana Reservation Efficiency","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_168308685"],"implicit":["implicit.stat_168308685"],"enchant":["enchant.stat_168308685"]}}}
 {"ref":"Zealotry has no Reservation","better":1,"matchers":[{"string":"Zealotry has no Reservation"}],"trade":{"ids":{"explicit":["explicit.stat_1741242318"]}}}
+{"ref": "Spark", "better": 0, "matchers": [{"string": "Spark"}], "trade": {"ids": {"mercenary": ["mercenary.skill_5893"]}}}
+{"ref": "Conductivity", "better": 0, "matchers": [{"string": "Conductivity"}], "trade": {"ids": {"mercenary": ["mercenary.skill_41484"]}}}
+{"ref": "Orb of Storms", "better": 0, "matchers": [{"string": "Orb of Storms"}], "trade": {"ids": {"mercenary": ["mercenary.skill_11879"]}}}
+{"ref": "Greater Stormcall", "better": 0, "matchers": [{"string": "Greater Stormcall"}], "trade": {"ids": {"mercenary": ["mercenary.skill_3148"]}}}
+{"ref": "Stormcall", "better": 0, "matchers": [{"string": "Stormcall"}], "trade": {"ids": {"mercenary": ["mercenary.skill_7549"]}}}
+{"ref": "Arc", "better": 0, "matchers": [{"string": "Arc"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59005"]}}}
+{"ref": "Greater Shock Nova", "better": 0, "matchers": [{"string": "Greater Shock Nova"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50290"]}}}
+{"ref": "Lightning Warp", "better": 0, "matchers": [{"string": "Lightning Warp"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28757"]}}}
+{"ref": "Frost Bomb", "better": 0, "matchers": [{"string": "Frost Bomb"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10557"]}}}
+{"ref": "Frostbolt", "better": 0, "matchers": [{"string": "Frostbolt"}], "trade": {"ids": {"mercenary": ["mercenary.skill_33663"]}}}
+{"ref": "Vortex", "better": 0, "matchers": [{"string": "Vortex"}], "trade": {"ids": {"mercenary": ["mercenary.skill_31928"]}}}
+{"ref": "Ice Nova", "better": 0, "matchers": [{"string": "Ice Nova"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61497"]}}}
+{"ref": "Ice Nova of Projection", "better": 0, "matchers": [{"string": "Ice Nova of Projection"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61471"]}}}
+{"ref": "Flame Wall", "better": 0, "matchers": [{"string": "Flame Wall"}], "trade": {"ids": {"mercenary": ["mercenary.skill_57450"]}}}
+{"ref": "Frost Wall", "better": 0, "matchers": [{"string": "Frost Wall"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50009"]}}}
+{"ref": "Icestorm", "better": 0, "matchers": [{"string": "Icestorm"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28637"]}}}
+{"ref": "Flammability", "better": 0, "matchers": [{"string": "Flammability"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40521"]}}}
+{"ref": "Frostbite", "better": 0, "matchers": [{"string": "Frostbite"}], "trade": {"ids": {"mercenary": ["mercenary.skill_6479"]}}}
+{"ref": "Eye of Winter", "better": 0, "matchers": [{"string": "Eye of Winter"}], "trade": {"ids": {"mercenary": ["mercenary.skill_57063"]}}}
+{"ref": "Frostblink", "better": 0, "matchers": [{"string": "Frostblink"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40470"]}}}
+{"ref": "Flame Dash", "better": 0, "matchers": [{"string": "Flame Dash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_56180"]}}}
+{"ref": "Greater Flame Dash", "better": 0, "matchers": [{"string": "Greater Flame Dash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24099"]}}}
+{"ref": "Flameblast", "better": 0, "matchers": [{"string": "Flameblast"}], "trade": {"ids": {"mercenary": ["mercenary.skill_6446"]}}}
+{"ref": "Flame Surge", "better": 0, "matchers": [{"string": "Flame Surge"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8801"]}}}
+{"ref": "Flame Aegis", "better": 0, "matchers": [{"string": "Flame Aegis"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50414"]}}}
+{"ref": "Vaal Flameblast", "better": 0, "matchers": [{"string": "Vaal Flameblast"}], "trade": {"ids": {"mercenary": ["mercenary.skill_29426"]}}}
+{"ref": "Fireball", "better": 0, "matchers": [{"string": "Fireball"}], "trade": {"ids": {"mercenary": ["mercenary.skill_324"]}}}
+{"ref": "Fireball of Impact", "better": 0, "matchers": [{"string": "Fireball of Impact"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37821"]}}}
+{"ref": "Rolling Magma", "better": 0, "matchers": [{"string": "Rolling Magma"}], "trade": {"ids": {"mercenary": ["mercenary.skill_30130"]}}}
+{"ref": "Anger", "better": 0, "matchers": [{"string": "Anger"}], "trade": {"ids": {"mercenary": ["mercenary.skill_13235"]}}}
+{"ref": "Purity of Fire", "better": 0, "matchers": [{"string": "Purity of Fire"}], "trade": {"ids": {"mercenary": ["mercenary.skill_33728"]}}}
+{"ref": "Purity of Ice", "better": 0, "matchers": [{"string": "Purity of Ice"}], "trade": {"ids": {"mercenary": ["mercenary.skill_13693"]}}}
+{"ref": "Purity of Lightning", "better": 0, "matchers": [{"string": "Purity of Lightning"}], "trade": {"ids": {"mercenary": ["mercenary.skill_63233"]}}}
+{"ref": "Sigil of Power", "better": 0, "matchers": [{"string": "Sigil of Power"}], "trade": {"ids": {"mercenary": ["mercenary.skill_33661"]}}}
+{"ref": "Ball Lightning of Static", "better": 0, "matchers": [{"string": "Ball Lightning of Static"}], "trade": {"ids": {"mercenary": ["mercenary.skill_30663"]}}}
+{"ref": "Discipline", "better": 0, "matchers": [{"string": "Discipline"}], "trade": {"ids": {"mercenary": ["mercenary.skill_21708"]}}}
+{"ref": "Wrath", "better": 0, "matchers": [{"string": "Wrath"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38326"]}}}
+{"ref": "Temporal Chains", "better": 0, "matchers": [{"string": "Temporal Chains"}], "trade": {"ids": {"mercenary": ["mercenary.skill_7383"]}}}
+{"ref": "Bane", "better": 0, "matchers": [{"string": "Bane"}], "trade": {"ids": {"mercenary": ["mercenary.skill_63468"]}}}
+{"ref": "Proximity Shield", "better": 0, "matchers": [{"string": "Proximity Shield"}], "trade": {"ids": {"mercenary": ["mercenary.skill_16018"]}}}
+{"ref": "Withering Step", "better": 0, "matchers": [{"string": "Withering Step"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10320"]}}}
+{"ref": "Clarity", "better": 0, "matchers": [{"string": "Clarity"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28785"]}}}
+{"ref": "Wither Totem", "better": 0, "matchers": [{"string": "Wither Totem"}], "trade": {"ids": {"mercenary": ["mercenary.skill_1911"]}}}
+{"ref": "Malevolence", "better": 0, "matchers": [{"string": "Malevolence"}], "trade": {"ids": {"mercenary": ["mercenary.skill_1516"]}}}
+{"ref": "Greater Soulrend", "better": 0, "matchers": [{"string": "Greater Soulrend"}], "trade": {"ids": {"mercenary": ["mercenary.skill_11671"]}}}
+{"ref": "Altar of Chaos", "better": 0, "matchers": [{"string": "Altar of Chaos"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50670"]}}}
+{"ref": "Essence Drain of Wickedness", "better": 0, "matchers": [{"string": "Essence Drain of Wickedness"}], "trade": {"ids": {"mercenary": ["mercenary.skill_39669"]}}}
+{"ref": "Scourstorm", "better": 0, "matchers": [{"string": "Scourstorm"}], "trade": {"ids": {"mercenary": ["mercenary.skill_13441"]}}}
+{"ref": "Blight", "better": 0, "matchers": [{"string": "Blight"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8450"]}}}
+{"ref": "Bodyswap", "better": 0, "matchers": [{"string": "Bodyswap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_4927"]}}}
+{"ref": "Pride", "better": 0, "matchers": [{"string": "Pride"}], "trade": {"ids": {"mercenary": ["mercenary.skill_18793"]}}}
+{"ref": "Vaal Vitality", "better": 0, "matchers": [{"string": "Vaal Vitality"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14889"]}}}
+{"ref": "Reap", "better": 0, "matchers": [{"string": "Reap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14064"]}}}
+{"ref": "Corrupted Blade Vortex of the Scythe", "better": 0, "matchers": [{"string": "Corrupted Blade Vortex of the Scythe"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8958"]}}}
+{"ref": "Vaal Reap", "better": 0, "matchers": [{"string": "Vaal Reap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_1185"]}}}
+{"ref": "Exsanguinate", "better": 0, "matchers": [{"string": "Exsanguinate"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40439"]}}}
+{"ref": "Boiling Blood", "better": 0, "matchers": [{"string": "Boiling Blood"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44422"]}}}
+{"ref": "Blasphemy Enfeeble", "better": 0, "matchers": [{"string": "Blasphemy Enfeeble"}], "trade": {"ids": {"mercenary": ["mercenary.skill_26391"]}}}
+{"ref": "Desecrate", "better": 0, "matchers": [{"string": "Desecrate"}], "trade": {"ids": {"mercenary": ["mercenary.skill_21523"]}}}
+{"ref": "Bone Offering", "better": 0, "matchers": [{"string": "Bone Offering"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44467"]}}}
+{"ref": "Flesh Offering", "better": 0, "matchers": [{"string": "Flesh Offering"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61730"]}}}
+{"ref": "Relic of Binding", "better": 0, "matchers": [{"string": "Relic of Binding"}], "trade": {"ids": {"mercenary": ["mercenary.skill_62758"]}}}
+{"ref": "Summon Skeletons", "better": 0, "matchers": [{"string": "Summon Skeletons"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17409"]}}}
+{"ref": "Summon Raging Spirit", "better": 0, "matchers": [{"string": "Summon Raging Spirit"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19108"]}}}
+{"ref": "Raise Zombie of Gigantism", "better": 0, "matchers": [{"string": "Raise Zombie of Gigantism"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52491"]}}}
+{"ref": "Raise Zombie of Falling", "better": 0, "matchers": [{"string": "Raise Zombie of Falling"}], "trade": {"ids": {"mercenary": ["mercenary.skill_57377"]}}}
+{"ref": "Soulrend of Reaping", "better": 0, "matchers": [{"string": "Soulrend of Reaping"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10742"]}}}
+{"ref": "Voltaxic Burst", "better": 0, "matchers": [{"string": "Voltaxic Burst"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52144"]}}}
+{"ref": "Void Sphere", "better": 0, "matchers": [{"string": "Void Sphere"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52783"]}}}
+{"ref": "Dark Bargain", "better": 0, "matchers": [{"string": "Dark Bargain"}], "trade": {"ids": {"mercenary": ["mercenary.skill_35371"]}}}
+{"ref": "Profane Cascade", "better": 0, "matchers": [{"string": "Profane Cascade"}], "trade": {"ids": {"mercenary": ["mercenary.skill_51539"]}}}
+{"ref": "Summon Seeking Void", "better": 0, "matchers": [{"string": "Summon Seeking Void"}], "trade": {"ids": {"mercenary": ["mercenary.skill_54144"]}}}
+{"ref": "Forbidden Rite Totem", "better": 0, "matchers": [{"string": "Forbidden Rite Totem"}], "trade": {"ids": {"mercenary": ["mercenary.skill_29071"]}}}
+{"ref": "Despair", "better": 0, "matchers": [{"string": "Despair"}], "trade": {"ids": {"mercenary": ["mercenary.skill_56742"]}}}
+{"ref": "Envy", "better": 0, "matchers": [{"string": "Envy"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17515"]}}}
+{"ref": "Zealotry", "better": 0, "matchers": [{"string": "Zealotry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14498"]}}}
+{"ref": "Smoke Mine", "better": 0, "matchers": [{"string": "Smoke Mine"}], "trade": {"ids": {"mercenary": ["mercenary.skill_64528"]}}}
+{"ref": "Grace", "better": 0, "matchers": [{"string": "Grace"}], "trade": {"ids": {"mercenary": ["mercenary.skill_2792"]}}}
+{"ref": "Summon Skitterbots", "better": 0, "matchers": [{"string": "Summon Skitterbots"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44296"]}}}
+{"ref": "Vaal Lightning Trap", "better": 0, "matchers": [{"string": "Vaal Lightning Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_25149"]}}}
+{"ref": "Trarthan Agility", "better": 0, "matchers": [{"string": "Trarthan Agility"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38072"]}}}
+{"ref": "Spectral Throw of Trarthus", "better": 0, "matchers": [{"string": "Spectral Throw of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_62393"]}}}
+{"ref": "Spectral Helix of Trarthus", "better": 0, "matchers": [{"string": "Spectral Helix of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28988"]}}}
+{"ref": "Bear Trap", "better": 0, "matchers": [{"string": "Bear Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_13711"]}}}
+{"ref": "Blade Trap", "better": 0, "matchers": [{"string": "Blade Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_11054"]}}}
+{"ref": "Ball Lightning of Orbiting Trap", "better": 0, "matchers": [{"string": "Ball Lightning of Orbiting Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37561"]}}}
+{"ref": "Lightning Warp Trap", "better": 0, "matchers": [{"string": "Lightning Warp Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_5247"]}}}
+{"ref": "Lightning Spire Trap", "better": 0, "matchers": [{"string": "Lightning Spire Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8075"]}}}
+{"ref": "Lightning Trap", "better": 0, "matchers": [{"string": "Lightning Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17037"]}}}
+{"ref": "Unnerving Blast", "better": 0, "matchers": [{"string": "Unnerving Blast"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19034"]}}}
+{"ref": "Charged Dash of the Arcane", "better": 0, "matchers": [{"string": "Charged Dash of the Arcane"}], "trade": {"ids": {"mercenary": ["mercenary.skill_5673"]}}}
+{"ref": "Tornado of Elemental Turbulence", "better": 0, "matchers": [{"string": "Tornado of Elemental Turbulence"}], "trade": {"ids": {"mercenary": ["mercenary.skill_23225"]}}}
+{"ref": "Arctic Armour", "better": 0, "matchers": [{"string": "Arctic Armour"}], "trade": {"ids": {"mercenary": ["mercenary.skill_55367"]}}}
+{"ref": "Frost Shield", "better": 0, "matchers": [{"string": "Frost Shield"}], "trade": {"ids": {"mercenary": ["mercenary.skill_57491"]}}}
+{"ref": "Ice Trap", "better": 0, "matchers": [{"string": "Ice Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_62997"]}}}
+{"ref": "Vaal Arctic Armour", "better": 0, "matchers": [{"string": "Vaal Arctic Armour"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44455"]}}}
+{"ref": "Greater Vortex Trap", "better": 0, "matchers": [{"string": "Greater Vortex Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_3493"]}}}
+{"ref": "Creeping Frost Trap", "better": 0, "matchers": [{"string": "Creeping Frost Trap"}], "trade": {"ids": {"mercenary": ["mercenary.skill_9321"]}}}
+{"ref": "Divine Retribution", "better": 0, "matchers": [{"string": "Divine Retribution"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24685"]}}}
+{"ref": "Divine Ire", "better": 0, "matchers": [{"string": "Divine Ire"}], "trade": {"ids": {"mercenary": ["mercenary.skill_45226"]}}}
+{"ref": "Shockwave Totem of Shocking", "better": 0, "matchers": [{"string": "Shockwave Totem of Shocking"}], "trade": {"ids": {"mercenary": ["mercenary.skill_6651"]}}}
+{"ref": "Wave of Conviction", "better": 0, "matchers": [{"string": "Wave of Conviction"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14732"]}}}
+{"ref": "Herald of Ash", "better": 0, "matchers": [{"string": "Herald of Ash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44334"]}}}
+{"ref": "Wave of Conviction of Trarthus", "better": 0, "matchers": [{"string": "Wave of Conviction of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_4286"]}}}
+{"ref": "Holy Mortar", "better": 0, "matchers": [{"string": "Holy Mortar"}], "trade": {"ids": {"mercenary": ["mercenary.skill_1577"]}}}
+{"ref": "Meteor", "better": 0, "matchers": [{"string": "Meteor"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40723"]}}}
+{"ref": "Purifying Flame", "better": 0, "matchers": [{"string": "Purifying Flame"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17763"]}}}
+{"ref": "Scorching Ray Totem", "better": 0, "matchers": [{"string": "Scorching Ray Totem"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47293"]}}}
+{"ref": "Holy Flame Totem", "better": 0, "matchers": [{"string": "Holy Flame Totem"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47949"]}}}
+{"ref": "Vaal Caustic Arrow", "better": 0, "matchers": [{"string": "Vaal Caustic Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_36274"]}}}
+{"ref": "Caustic Arrow", "better": 0, "matchers": [{"string": "Caustic Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_58174"]}}}
+{"ref": "Chaotic Burst", "better": 0, "matchers": [{"string": "Chaotic Burst"}], "trade": {"ids": {"mercenary": ["mercenary.skill_26913"]}}}
+{"ref": "Chaotic Shot", "better": 0, "matchers": [{"string": "Chaotic Shot"}], "trade": {"ids": {"mercenary": ["mercenary.skill_18986"]}}}
+{"ref": "Toxic Rain", "better": 0, "matchers": [{"string": "Toxic Rain"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38628"]}}}
+{"ref": "Scourge Arrow of Menace", "better": 0, "matchers": [{"string": "Scourge Arrow of Menace"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28502"]}}}
+{"ref": "Intimidating Cry", "better": 0, "matchers": [{"string": "Intimidating Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38311"]}}}
+{"ref": "Ground Slam", "better": 0, "matchers": [{"string": "Ground Slam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_53728"]}}}
+{"ref": "Leap Slam", "better": 0, "matchers": [{"string": "Leap Slam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_2135"]}}}
+{"ref": "Molten Shell", "better": 0, "matchers": [{"string": "Molten Shell"}], "trade": {"ids": {"mercenary": ["mercenary.skill_21036"]}}}
+{"ref": "Endure", "better": 0, "matchers": [{"string": "Endure"}], "trade": {"ids": {"mercenary": ["mercenary.skill_57171"]}}}
+{"ref": "Burrow", "better": 0, "matchers": [{"string": "Burrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_31440"]}}}
+{"ref": "Sunder of Trarthus", "better": 0, "matchers": [{"string": "Sunder of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17654"]}}}
+{"ref": "Tectonic Cascade", "better": 0, "matchers": [{"string": "Tectonic Cascade"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40527"]}}}
+{"ref": "Earthquake of Amplification", "better": 0, "matchers": [{"string": "Earthquake of Amplification"}], "trade": {"ids": {"mercenary": ["mercenary.skill_41346"]}}}
+{"ref": "Determination", "better": 0, "matchers": [{"string": "Determination"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52845"]}}}
+{"ref": "Vaal Ground Slam", "better": 0, "matchers": [{"string": "Vaal Ground Slam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10712"]}}}
+{"ref": "Infernal Cry", "better": 0, "matchers": [{"string": "Infernal Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59259"]}}}
+{"ref": "Volcanic Fissure of Snaking", "better": 0, "matchers": [{"string": "Volcanic Fissure of Snaking"}], "trade": {"ids": {"mercenary": ["mercenary.skill_53235"]}}}
+{"ref": "Flame Link", "better": 0, "matchers": [{"string": "Flame Link"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47364"]}}}
+{"ref": "Ashen Fissure", "better": 0, "matchers": [{"string": "Ashen Fissure"}], "trade": {"ids": {"mercenary": ["mercenary.skill_42361"]}}}
+{"ref": "Consecrated Path", "better": 0, "matchers": [{"string": "Consecrated Path"}], "trade": {"ids": {"mercenary": ["mercenary.skill_3093"]}}}
+{"ref": "Triggerslam", "better": 0, "matchers": [{"string": "Triggerslam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_18149"]}}}
+{"ref": "Tectonic Slam", "better": 0, "matchers": [{"string": "Tectonic Slam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_6228"]}}}
+{"ref": "Ice Crash", "better": 0, "matchers": [{"string": "Ice Crash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_11018"]}}}
+{"ref": "Glacial Hammer", "better": 0, "matchers": [{"string": "Glacial Hammer"}], "trade": {"ids": {"mercenary": ["mercenary.skill_53217"]}}}
+{"ref": "Vaal Glacial Hammer", "better": 0, "matchers": [{"string": "Vaal Glacial Hammer"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47031"]}}}
+{"ref": "Earthquake of Winter", "better": 0, "matchers": [{"string": "Earthquake of Winter"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14816"]}}}
+{"ref": "Heavy Strike of Trarthus", "better": 0, "matchers": [{"string": "Heavy Strike of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38103"]}}}
+{"ref": "Dual Strike", "better": 0, "matchers": [{"string": "Dual Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10235"]}}}
+{"ref": "Hatred", "better": 0, "matchers": [{"string": "Hatred"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24482"]}}}
+{"ref": "Vaal Burning Arrow", "better": 0, "matchers": [{"string": "Vaal Burning Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_23512"]}}}
+{"ref": "Blast Rain of Trarthus", "better": 0, "matchers": [{"string": "Blast Rain of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_18004"]}}}
+{"ref": "Blasphemy Flammability", "better": 0, "matchers": [{"string": "Blasphemy Flammability"}], "trade": {"ids": {"mercenary": ["mercenary.skill_39298"]}}}
+{"ref": "Alchemist's Mark", "better": 0, "matchers": [{"string": "Alchemist's Mark"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24179"]}}}
+{"ref": "Burning Arrow", "better": 0, "matchers": [{"string": "Burning Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_34665"]}}}
+{"ref": "Molten Well", "better": 0, "matchers": [{"string": "Molten Well"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59200"]}}}
+{"ref": "Artillery Ballista", "better": 0, "matchers": [{"string": "Artillery Ballista"}], "trade": {"ids": {"mercenary": ["mercenary.skill_35610"]}}}
+{"ref": "Explosive Arrow", "better": 0, "matchers": [{"string": "Explosive Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_36298"]}}}
+{"ref": "Cyclone of the Empire", "better": 0, "matchers": [{"string": "Cyclone of the Empire"}], "trade": {"ids": {"mercenary": ["mercenary.skill_46739"]}}}
+{"ref": "Vaal Double Strike", "better": 0, "matchers": [{"string": "Vaal Double Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37132"]}}}
+{"ref": "Holy Sweep", "better": 0, "matchers": [{"string": "Holy Sweep"}], "trade": {"ids": {"mercenary": ["mercenary.skill_7395"]}}}
+{"ref": "Rallying Cry", "better": 0, "matchers": [{"string": "Rallying Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_39265"]}}}
+{"ref": "Triggerblades", "better": 0, "matchers": [{"string": "Triggerblades"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28026"]}}}
+{"ref": "Steelskin Ally", "better": 0, "matchers": [{"string": "Steelskin Ally"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17105"]}}}
+{"ref": "Flicker Strike", "better": 0, "matchers": [{"string": "Flicker Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61669"]}}}
+{"ref": "Incite", "better": 0, "matchers": [{"string": "Incite"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59409"]}}}
+{"ref": "Bladestorm", "better": 0, "matchers": [{"string": "Bladestorm"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12357"]}}}
+{"ref": "Bloodthirst", "better": 0, "matchers": [{"string": "Bloodthirst"}], "trade": {"ids": {"mercenary": ["mercenary.skill_60880"]}}}
+{"ref": "Oil Slick", "better": 0, "matchers": [{"string": "Oil Slick"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19268"]}}}
+{"ref": "Lacerate", "better": 0, "matchers": [{"string": "Lacerate"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8136"]}}}
+{"ref": "Perforate", "better": 0, "matchers": [{"string": "Perforate"}], "trade": {"ids": {"mercenary": ["mercenary.skill_54006"]}}}
+{"ref": "Blood Mortar", "better": 0, "matchers": [{"string": "Blood Mortar"}], "trade": {"ids": {"mercenary": ["mercenary.skill_26931"]}}}
+{"ref": "Kinetic Bolt", "better": 0, "matchers": [{"string": "Kinetic Bolt"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12583"]}}}
+{"ref": "Kinetic Blast of Clustering", "better": 0, "matchers": [{"string": "Kinetic Blast of Clustering"}], "trade": {"ids": {"mercenary": ["mercenary.skill_16356"]}}}
+{"ref": "Power Siphon", "better": 0, "matchers": [{"string": "Power Siphon"}], "trade": {"ids": {"mercenary": ["mercenary.skill_26705"]}}}
+{"ref": "Barrage", "better": 0, "matchers": [{"string": "Barrage"}], "trade": {"ids": {"mercenary": ["mercenary.skill_1356"]}}}
+{"ref": "Greater Kinetic Blast", "better": 0, "matchers": [{"string": "Greater Kinetic Blast"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44258"]}}}
+{"ref": "Inspiring Cry", "better": 0, "matchers": [{"string": "Inspiring Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_65473"]}}}
+{"ref": "Elemental Weakness", "better": 0, "matchers": [{"string": "Elemental Weakness"}], "trade": {"ids": {"mercenary": ["mercenary.skill_5689"]}}}
+{"ref": "Ensnaring Arrow", "better": 0, "matchers": [{"string": "Ensnaring Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12667"]}}}
+{"ref": "Poacher's Mark", "better": 0, "matchers": [{"string": "Poacher's Mark"}], "trade": {"ids": {"mercenary": ["mercenary.skill_27805"]}}}
+{"ref": "Rain of Arrows of Saturation", "better": 0, "matchers": [{"string": "Rain of Arrows of Saturation"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40759"]}}}
+{"ref": "Siege Ballista of Trarthus", "better": 0, "matchers": [{"string": "Siege Ballista of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_44144"]}}}
+{"ref": "Tornado Shot", "better": 0, "matchers": [{"string": "Tornado Shot"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8030"]}}}
+{"ref": "Shrapnel Ballista", "better": 0, "matchers": [{"string": "Shrapnel Ballista"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61903"]}}}
+{"ref": "Greater Split Arrow", "better": 0, "matchers": [{"string": "Greater Split Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8546"]}}}
+{"ref": "Split Arrow", "better": 0, "matchers": [{"string": "Split Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_43202"]}}}
+{"ref": "Puncture", "better": 0, "matchers": [{"string": "Puncture"}], "trade": {"ids": {"mercenary": ["mercenary.skill_30431"]}}}
+{"ref": "Lightning Arrow", "better": 0, "matchers": [{"string": "Lightning Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_41051"]}}}
+{"ref": "Vaal Lightning Arrow", "better": 0, "matchers": [{"string": "Vaal Lightning Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22000"]}}}
+{"ref": "Storm Rain", "better": 0, "matchers": [{"string": "Storm Rain"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17216"]}}}
+{"ref": "Precision", "better": 0, "matchers": [{"string": "Precision"}], "trade": {"ids": {"mercenary": ["mercenary.skill_36279"]}}}
+{"ref": "Assassin's Mark", "better": 0, "matchers": [{"string": "Assassin's Mark"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47406"]}}}
+{"ref": "Galvanic Arrow", "better": 0, "matchers": [{"string": "Galvanic Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_27165"]}}}
+{"ref": "Greater Lightning Arrow", "better": 0, "matchers": [{"string": "Greater Lightning Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38993"]}}}
+{"ref": "Cleave", "better": 0, "matchers": [{"string": "Cleave"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8445"]}}}
+{"ref": "Leap Slam of Groundbreaking", "better": 0, "matchers": [{"string": "Leap Slam of Groundbreaking"}], "trade": {"ids": {"mercenary": ["mercenary.skill_41915"]}}}
+{"ref": "Vigilant Strike", "better": 0, "matchers": [{"string": "Vigilant Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_4988"]}}}
+{"ref": "Heavy Strike of Vulnerability", "better": 0, "matchers": [{"string": "Heavy Strike of Vulnerability"}], "trade": {"ids": {"mercenary": ["mercenary.skill_64565"]}}}
+{"ref": "Boneshatter", "better": 0, "matchers": [{"string": "Boneshatter"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22696"]}}}
+{"ref": "Decoy Totem", "better": 0, "matchers": [{"string": "Decoy Totem"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38104"]}}}
+{"ref": "Vaal Ancestral Warchief", "better": 0, "matchers": [{"string": "Vaal Ancestral Warchief"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38521"]}}}
+{"ref": "Vitality", "better": 0, "matchers": [{"string": "Vitality"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40419"]}}}
+{"ref": "Tunnelslam", "better": 0, "matchers": [{"string": "Tunnelslam"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52105"]}}}
+{"ref": "Enduring Cry", "better": 0, "matchers": [{"string": "Enduring Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_20973"]}}}
+{"ref": "Physical Aegis", "better": 0, "matchers": [{"string": "Physical Aegis"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17015"]}}}
+{"ref": "Sanctified Strike", "better": 0, "matchers": [{"string": "Sanctified Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_53518"]}}}
+{"ref": "Herald of Purity", "better": 0, "matchers": [{"string": "Herald of Purity"}], "trade": {"ids": {"mercenary": ["mercenary.skill_34212"]}}}
+{"ref": "Enrage", "better": 0, "matchers": [{"string": "Enrage"}], "trade": {"ids": {"mercenary": ["mercenary.skill_62530"]}}}
+{"ref": "Vaal Cleave", "better": 0, "matchers": [{"string": "Vaal Cleave"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12723"]}}}
+{"ref": "Slicing Wind", "better": 0, "matchers": [{"string": "Slicing Wind"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19808"]}}}
+{"ref": "Chain Hook of Trarthus", "better": 0, "matchers": [{"string": "Chain Hook of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_7182"]}}}
+{"ref": "Raise Spectre: Holy Flame Elementals", "better": 0, "matchers": [{"string": "Raise Spectre: Holy Flame Elementals"}], "trade": {"ids": {"mercenary": ["mercenary.skill_47078"]}}}
+{"ref": "Touch of God", "better": 0, "matchers": [{"string": "Touch of God"}], "trade": {"ids": {"mercenary": ["mercenary.skill_39732"]}}}
+{"ref": "Smite", "better": 0, "matchers": [{"string": "Smite"}], "trade": {"ids": {"mercenary": ["mercenary.skill_55917"]}}}
+{"ref": "Dominating Blow", "better": 0, "matchers": [{"string": "Dominating Blow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_43742"]}}}
+{"ref": "Holy Relic", "better": 0, "matchers": [{"string": "Holy Relic"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40812"]}}}
+{"ref": "Beacons of Faith", "better": 0, "matchers": [{"string": "Beacons of Faith"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50866"]}}}
+{"ref": "Spectral Shield Throw of Trarthus", "better": 0, "matchers": [{"string": "Spectral Shield Throw of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_41834"]}}}
+{"ref": "Shield Crush", "better": 0, "matchers": [{"string": "Shield Crush"}], "trade": {"ids": {"mercenary": ["mercenary.skill_21201"]}}}
+{"ref": "Shield Charge", "better": 0, "matchers": [{"string": "Shield Charge"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22850"]}}}
+{"ref": "Prismplate", "better": 0, "matchers": [{"string": "Prismplate"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52494"]}}}
+{"ref": "Brutal Teachings", "better": 0, "matchers": [{"string": "Brutal Teachings"}], "trade": {"ids": {"mercenary": ["mercenary.skill_27763"]}}}
+{"ref": "Shattering Steel", "better": 0, "matchers": [{"string": "Shattering Steel"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12729"]}}}
+{"ref": "Splitting Steel", "better": 0, "matchers": [{"string": "Splitting Steel"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28511"]}}}
+{"ref": "Lancing Steel", "better": 0, "matchers": [{"string": "Lancing Steel"}], "trade": {"ids": {"mercenary": ["mercenary.skill_43812"]}}}
+{"ref": "Call of Steel", "better": 0, "matchers": [{"string": "Call of Steel"}], "trade": {"ids": {"mercenary": ["mercenary.skill_46131"]}}}
+{"ref": "Whirling Blades", "better": 0, "matchers": [{"string": "Whirling Blades"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10823"]}}}
+{"ref": "Venom Gyre", "better": 0, "matchers": [{"string": "Venom Gyre"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59831"]}}}
+{"ref": "Viper Strike", "better": 0, "matchers": [{"string": "Viper Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22227"]}}}
+{"ref": "Pestilent Strike", "better": 0, "matchers": [{"string": "Pestilent Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12262"]}}}
+{"ref": "Cobra Lash", "better": 0, "matchers": [{"string": "Cobra Lash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_16896"]}}}
+{"ref": "Profane Strike", "better": 0, "matchers": [{"string": "Profane Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_36446"]}}}
+{"ref": "Abyssal Cry", "better": 0, "matchers": [{"string": "Abyssal Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_14992"]}}}
+{"ref": "Seismic Crush", "better": 0, "matchers": [{"string": "Seismic Crush"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17198"]}}}
+{"ref": "Bloody Warp", "better": 0, "matchers": [{"string": "Bloody Warp"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22724"]}}}
+{"ref": "Blade Vortex", "better": 0, "matchers": [{"string": "Blade Vortex"}], "trade": {"ids": {"mercenary": ["mercenary.skill_25718"]}}}
+{"ref": "Ethereal Knives", "better": 0, "matchers": [{"string": "Ethereal Knives"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50999"]}}}
+{"ref": "Aspect of the Spider", "better": 0, "matchers": [{"string": "Aspect of the Spider"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19417"]}}}
+{"ref": "Clutches of the Damned", "better": 0, "matchers": [{"string": "Clutches of the Damned"}], "trade": {"ids": {"mercenary": ["mercenary.skill_26057"]}}}
+{"ref": "Bladefall", "better": 0, "matchers": [{"string": "Bladefall"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37202"]}}}
+{"ref": "Bladefall of Trarthus", "better": 0, "matchers": [{"string": "Bladefall of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_59477"]}}}
+{"ref": "Storm Call of Trarthus", "better": 0, "matchers": [{"string": "Storm Call of Trarthus"}], "trade": {"ids": {"mercenary": ["mercenary.skill_2187"]}}}
+{"ref": "Tempest Shield", "better": 0, "matchers": [{"string": "Tempest Shield"}], "trade": {"ids": {"mercenary": ["mercenary.skill_58855"]}}}
+{"ref": "Punishment", "better": 0, "matchers": [{"string": "Punishment"}], "trade": {"ids": {"mercenary": ["mercenary.skill_32391"]}}}
+{"ref": "Vaal Molten Strike", "better": 0, "matchers": [{"string": "Vaal Molten Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_42219"]}}}
+{"ref": "Molten Strike", "better": 0, "matchers": [{"string": "Molten Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_899"]}}}
+{"ref": "Infernal Blow of Immolation", "better": 0, "matchers": [{"string": "Infernal Blow of Immolation"}], "trade": {"ids": {"mercenary": ["mercenary.skill_17147"]}}}
+{"ref": "Inflame", "better": 0, "matchers": [{"string": "Inflame"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8295"]}}}
+{"ref": "Flamebolt Strike", "better": 0, "matchers": [{"string": "Flamebolt Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_19178"]}}}
+{"ref": "Static Strike", "better": 0, "matchers": [{"string": "Static Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24931"]}}}
+{"ref": "Frost Blades", "better": 0, "matchers": [{"string": "Frost Blades"}], "trade": {"ids": {"mercenary": ["mercenary.skill_22105"]}}}
+{"ref": "Wild Strike", "better": 0, "matchers": [{"string": "Wild Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_40957"]}}}
+{"ref": "Spectral Helix", "better": 0, "matchers": [{"string": "Spectral Helix"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37916"]}}}
+{"ref": "Herald of Ice", "better": 0, "matchers": [{"string": "Herald of Ice"}], "trade": {"ids": {"mercenary": ["mercenary.skill_32807"]}}}
+{"ref": "Absolution", "better": 0, "matchers": [{"string": "Absolution"}], "trade": {"ids": {"mercenary": ["mercenary.skill_15611"]}}}
+{"ref": "Battlemage's Cry", "better": 0, "matchers": [{"string": "Battlemage's Cry"}], "trade": {"ids": {"mercenary": ["mercenary.skill_37344"]}}}
+{"ref": "Raise Spectre of Transience", "better": 0, "matchers": [{"string": "Raise Spectre of Transience"}], "trade": {"ids": {"mercenary": ["mercenary.skill_50349"]}}}
+{"ref": "Reinforce: Fallen Bishop", "better": 0, "matchers": [{"string": "Reinforce: Fallen Bishop"}], "trade": {"ids": {"mercenary": ["mercenary.skill_4383"]}}}
+{"ref": "Reinforce: Fallen Emperor", "better": 0, "matchers": [{"string": "Reinforce: Fallen Emperor"}], "trade": {"ids": {"mercenary": ["mercenary.skill_61523"]}}}
+{"ref": "Reinforce: Fallen Osseotitan", "better": 0, "matchers": [{"string": "Reinforce: Fallen Osseotitan"}], "trade": {"ids": {"mercenary": ["mercenary.skill_53527"]}}}
+{"ref": "Ice Shot", "better": 0, "matchers": [{"string": "Ice Shot"}], "trade": {"ids": {"mercenary": ["mercenary.skill_11495"]}}}
+{"ref": "Vaal Ice Shot", "better": 0, "matchers": [{"string": "Vaal Ice Shot"}], "trade": {"ids": {"mercenary": ["mercenary.skill_16381"]}}}
+{"ref": "Vaal Grace", "better": 0, "matchers": [{"string": "Vaal Grace"}], "trade": {"ids": {"mercenary": ["mercenary.skill_58425"]}}}
+{"ref": "Impenetrable Bastion", "better": 0, "matchers": [{"string": "Impenetrable Bastion"}], "trade": {"ids": {"mercenary": ["mercenary.skill_45615"]}}}
+{"ref": "Frigid Forkshot", "better": 0, "matchers": [{"string": "Frigid Forkshot"}], "trade": {"ids": {"mercenary": ["mercenary.skill_18232"]}}}
+{"ref": "Icicle Rain", "better": 0, "matchers": [{"string": "Icicle Rain"}], "trade": {"ids": {"mercenary": ["mercenary.skill_24409"]}}}
+{"ref": "Dash", "better": 0, "matchers": [{"string": "Dash"}], "trade": {"ids": {"mercenary": ["mercenary.skill_60723"]}}}
+{"ref": "Barrage of Volley Fire", "better": 0, "matchers": [{"string": "Barrage of Volley Fire"}], "trade": {"ids": {"mercenary": ["mercenary.skill_12260"]}}}
+{"ref": "Haste", "better": 0, "matchers": [{"string": "Haste"}], "trade": {"ids": {"mercenary": ["mercenary.skill_52155"]}}}
+{"ref": "Mirror Arrow", "better": 0, "matchers": [{"string": "Mirror Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_65447"]}}}
+{"ref": "Blink Arrow", "better": 0, "matchers": [{"string": "Blink Arrow"}], "trade": {"ids": {"mercenary": ["mercenary.skill_10722"]}}}
+{"ref": "Frenzy", "better": 0, "matchers": [{"string": "Frenzy"}], "trade": {"ids": {"mercenary": ["mercenary.skill_58592"]}}}
+{"ref": "Holy Hammers", "better": 0, "matchers": [{"string": "Holy Hammers"}], "trade": {"ids": {"mercenary": ["mercenary.skill_28506"]}}}
+{"ref": "Holy Strike", "better": 0, "matchers": [{"string": "Holy Strike"}], "trade": {"ids": {"mercenary": ["mercenary.skill_38655"]}}}
+{"ref": "Conflagration", "better": 0, "matchers": [{"string": "Conflagration"}], "trade": {"ids": {"mercenary": ["mercenary.skill_21962"]}}}
+{"ref": "Kinetic Rain of Impact", "better": 0, "matchers": [{"string": "Kinetic Rain of Impact"}], "trade": {"ids": {"mercenary": ["mercenary.skill_32089"]}}}
+{"ref": "Elemental Hit of Ice", "better": 0, "matchers": [{"string": "Elemental Hit of Ice"}], "trade": {"ids": {"mercenary": ["mercenary.skill_8708"]}}}
+{"ref": "Multiple Projectiles (Tier 1)", "better": 0, "matchers": [{"string": "Multiple Projectiles (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_12054"]}}}
+{"ref": "Greater Multiple Projectiles (Tier 3)", "better": 0, "matchers": [{"string": "Greater Multiple Projectiles (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_49419"]}}}
+{"ref": "Gilded Caustic Conversion (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Caustic Conversion (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_39101"]}}}
+{"ref": "Gilded Exposure on Hit (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Exposure on Hit (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50741"]}}}
+{"ref": "Melee Splash (Tier 3)", "better": 0, "matchers": [{"string": "Melee Splash (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40660"]}}}
+{"ref": "Gilded Extra Targets (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Extra Targets (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58471"]}}}
+{"ref": "Lesser Chain (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Chain (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_14317"]}}}
+{"ref": "Chain (Tier 2)", "better": 0, "matchers": [{"string": "Chain (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31052"]}}}
+{"ref": "Gilded Shield Damage (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Shield Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30406"]}}}
+{"ref": "Gilded Consecration (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Consecration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_10782"]}}}
+{"ref": "Gilded Volleys (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Volleys (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_1075"]}}}
+{"ref": "Lesser Spell Cascade (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Spell Cascade (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_65120"]}}}
+{"ref": "Spell Cascade (Tier 3)", "better": 0, "matchers": [{"string": "Spell Cascade (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_1751"]}}}
+{"ref": "Gilded Impale Extraction (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Impale Extraction (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52383"]}}}
+{"ref": "Gilded Additional Pods (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Additional Pods (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_20568"]}}}
+{"ref": "Gilded Faster Cyclone (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Faster Cyclone (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_17178"]}}}
+{"ref": "Gilded Relic Recovery (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Relic Recovery (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_44238"]}}}
+{"ref": "Gilded Maximum Storms (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Maximum Storms (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_10682"]}}}
+{"ref": "Gilded Maximum Spikes (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Maximum Spikes (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_9460"]}}}
+{"ref": "Greater Sacred Wisps (Tier 3)", "better": 0, "matchers": [{"string": "Greater Sacred Wisps (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_45969"]}}}
+{"ref": "Gilded Fortification (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Fortification (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_60910"]}}}
+{"ref": "Gilded Heft (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Heft (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3194"]}}}
+{"ref": "Greater Fork (Tier 3)", "better": 0, "matchers": [{"string": "Greater Fork (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32052"]}}}
+{"ref": "Lesser Chance to Bleed (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Chance to Bleed (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42600"]}}}
+{"ref": "Chance to Bleed (Tier 2)", "better": 0, "matchers": [{"string": "Chance to Bleed (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_38948"]}}}
+{"ref": "Greater Chance to Bleed (Tier 3)", "better": 0, "matchers": [{"string": "Greater Chance to Bleed (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31439"]}}}
+{"ref": "Lesser Added Chaos (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Added Chaos (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_45284"]}}}
+{"ref": "Added Chaos (Tier 2)", "better": 0, "matchers": [{"string": "Added Chaos (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31430"]}}}
+{"ref": "Greater Added Chaos (Tier 3)", "better": 0, "matchers": [{"string": "Greater Added Chaos (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_11914"]}}}
+{"ref": "Gilded Onslaught on Cry (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Onslaught on Cry (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52432"]}}}
+{"ref": "Lesser Raging Cry (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Raging Cry (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_49237"]}}}
+{"ref": "Raging Cry (Tier 2)", "better": 0, "matchers": [{"string": "Raging Cry (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_36496"]}}}
+{"ref": "Greater Raging Cry (Tier 3)", "better": 0, "matchers": [{"string": "Greater Raging Cry (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_13784"]}}}
+{"ref": "Lesser Chance to Poison (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Chance to Poison (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_1864"]}}}
+{"ref": "Chance to Poison (Tier 2)", "better": 0, "matchers": [{"string": "Chance to Poison (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58384"]}}}
+{"ref": "Greater Chance to Poison (Tier 3)", "better": 0, "matchers": [{"string": "Greater Chance to Poison (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_9585"]}}}
+{"ref": "Gilded Malediction (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Malediction (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_48949"]}}}
+{"ref": "Lesser Faster Casting (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Faster Casting (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_43469"]}}}
+{"ref": "Faster Casting (Tier 2)", "better": 0, "matchers": [{"string": "Faster Casting (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_38851"]}}}
+{"ref": "Greater Faster Casting (Tier 3)", "better": 0, "matchers": [{"string": "Greater Faster Casting (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_8607"]}}}
+{"ref": "Knockback (Tier 1)", "better": 0, "matchers": [{"string": "Knockback (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_65002"]}}}
+{"ref": "Gilded Additional Pulses (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Additional Pulses (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30722"]}}}
+{"ref": "Greater Lucky Lightning Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Lucky Lightning Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_24343"]}}}
+{"ref": "Lesser Generosity (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Generosity (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59349"]}}}
+{"ref": "Generosity (Tier 2)", "better": 0, "matchers": [{"string": "Generosity (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_35435"]}}}
+{"ref": "Greater Generosity (Tier 3)", "better": 0, "matchers": [{"string": "Greater Generosity (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_53367"]}}}
+{"ref": "Greater Fortify (Tier 3)", "better": 0, "matchers": [{"string": "Greater Fortify (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31664"]}}}
+{"ref": "Gilded Empowered Link (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Empowered Link (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_36350"]}}}
+{"ref": "Gilded Icecrash Radius (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Icecrash Radius (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_29166"]}}}
+{"ref": "Lesser More Duration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser More Duration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_2602"]}}}
+{"ref": "More Duration (Tier 2)", "better": 0, "matchers": [{"string": "More Duration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50222"]}}}
+{"ref": "Greater More Duration (Tier 3)", "better": 0, "matchers": [{"string": "Greater More Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26568"]}}}
+{"ref": "Lesser Less Duration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Less Duration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54768"]}}}
+{"ref": "Less Duration (Tier 2)", "better": 0, "matchers": [{"string": "Less Duration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_65114"]}}}
+{"ref": "Greater Less Duration (Tier 3)", "better": 0, "matchers": [{"string": "Greater Less Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_61947"]}}}
+{"ref": "Lesser Swift Affliction (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Swift Affliction (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_834"]}}}
+{"ref": "Swift Affliction (Tier 2)", "better": 0, "matchers": [{"string": "Swift Affliction (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64281"]}}}
+{"ref": "Greater Swift Affliction (Tier 3)", "better": 0, "matchers": [{"string": "Greater Swift Affliction (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_65240"]}}}
+{"ref": "Greater Curse Effect (Tier 3)", "better": 0, "matchers": [{"string": "Greater Curse Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3263"]}}}
+{"ref": "Lesser Hypothermia (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Hypothermia (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26146"]}}}
+{"ref": "Hypothermia (Tier 2)", "better": 0, "matchers": [{"string": "Hypothermia (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_38571"]}}}
+{"ref": "Greater Hypothermia (Tier 3)", "better": 0, "matchers": [{"string": "Greater Hypothermia (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_53145"]}}}
+{"ref": "Lesser Strike Distance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Strike Distance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30389"]}}}
+{"ref": "Strike Distance (Tier 2)", "better": 0, "matchers": [{"string": "Strike Distance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59784"]}}}
+{"ref": "Greater Strike Distance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Strike Distance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_812"]}}}
+{"ref": "Lesser Cooldown Recovery (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Cooldown Recovery (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30881"]}}}
+{"ref": "Cooldown Recovery (Tier 2)", "better": 0, "matchers": [{"string": "Cooldown Recovery (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_48875"]}}}
+{"ref": "Greater Cooldown Recovery (Tier 3)", "better": 0, "matchers": [{"string": "Greater Cooldown Recovery (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_10608"]}}}
+{"ref": "Lesser Cold Penetration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Cold Penetration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40565"]}}}
+{"ref": "Cold Penetration (Tier 2)", "better": 0, "matchers": [{"string": "Cold Penetration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54628"]}}}
+{"ref": "Greater Cold Penetration (Tier 3)", "better": 0, "matchers": [{"string": "Greater Cold Penetration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26094"]}}}
+{"ref": "Lesser Lightning Penetration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Lightning Penetration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37739"]}}}
+{"ref": "Lightning Penetration (Tier 2)", "better": 0, "matchers": [{"string": "Lightning Penetration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_41256"]}}}
+{"ref": "Greater Lightning Penetration (Tier 3)", "better": 0, "matchers": [{"string": "Greater Lightning Penetration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26815"]}}}
+{"ref": "Arrow Nova (Tier 3)", "better": 0, "matchers": [{"string": "Arrow Nova (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58429"]}}}
+{"ref": "Gilded Maximum Explosions (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Maximum Explosions (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42966"]}}}
+{"ref": "Gilded Additional Fissures (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Additional Fissures (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3609"]}}}
+{"ref": "Lesser Fire Penetration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Fire Penetration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_46010"]}}}
+{"ref": "Fire Penetration (Tier 2)", "better": 0, "matchers": [{"string": "Fire Penetration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_62885"]}}}
+{"ref": "Greater Fire Penetration (Tier 3)", "better": 0, "matchers": [{"string": "Greater Fire Penetration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54494"]}}}
+{"ref": "Lesser Ailment Effect (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Ailment Effect (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_12388"]}}}
+{"ref": "Ailment Effect (Tier 2)", "better": 0, "matchers": [{"string": "Ailment Effect (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_61972"]}}}
+{"ref": "Greater Ailment Effect (Tier 3)", "better": 0, "matchers": [{"string": "Greater Ailment Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_33272"]}}}
+{"ref": "Lesser Added Cold (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Added Cold (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_13069"]}}}
+{"ref": "Added Cold (Tier 2)", "better": 0, "matchers": [{"string": "Added Cold (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52758"]}}}
+{"ref": "Greater Added Cold (Tier 3)", "better": 0, "matchers": [{"string": "Greater Added Cold (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_60094"]}}}
+{"ref": "Lesser Added Lightning (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Added Lightning (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_36665"]}}}
+{"ref": "Added Lightning (Tier 2)", "better": 0, "matchers": [{"string": "Added Lightning (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64283"]}}}
+{"ref": "Greater Added Lightning (Tier 3)", "better": 0, "matchers": [{"string": "Greater Added Lightning (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40533"]}}}
+{"ref": "Gilded Elemental Weakness on Hit (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Elemental Weakness on Hit (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3756"]}}}
+{"ref": "Lesser Elemental Damage with Attacks (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Elemental Damage with Attacks (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59712"]}}}
+{"ref": "Elemental Damage with Attacks (Tier 2)", "better": 0, "matchers": [{"string": "Elemental Damage with Attacks (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_44886"]}}}
+{"ref": "Greater Elemental Damage with Attacks (Tier 3)", "better": 0, "matchers": [{"string": "Greater Elemental Damage with Attacks (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_28416"]}}}
+{"ref": "Lesser Shock Chance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Shock Chance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_9710"]}}}
+{"ref": "Shock Chance (Tier 2)", "better": 0, "matchers": [{"string": "Shock Chance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64846"]}}}
+{"ref": "Greater Shock Chance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Shock Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_38046"]}}}
+{"ref": "Lesser Ignite Chance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Ignite Chance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52335"]}}}
+{"ref": "Ignite Chance (Tier 2)", "better": 0, "matchers": [{"string": "Ignite Chance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50303"]}}}
+{"ref": "Greater Ignite Chance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Ignite Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_10997"]}}}
+{"ref": "Lesser Freeze Chance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Freeze Chance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_34226"]}}}
+{"ref": "Freeze Chance (Tier 2)", "better": 0, "matchers": [{"string": "Freeze Chance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_27458"]}}}
+{"ref": "Greater Freeze Chance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Freeze Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_12387"]}}}
+{"ref": "Brittle Chance (Tier 3)", "better": 0, "matchers": [{"string": "Brittle Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54837"]}}}
+{"ref": "Lesser Ailment Damage (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Ailment Damage (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_44527"]}}}
+{"ref": "Ailment Damage (Tier 2)", "better": 0, "matchers": [{"string": "Ailment Damage (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_9607"]}}}
+{"ref": "Greater Ailment Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Ailment Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_65362"]}}}
+{"ref": "Gilded Trauma Duration (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Trauma Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_21276"]}}}
+{"ref": "Gilded Astral Totem (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Astral Totem (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_41118"]}}}
+{"ref": "Gilded Ensnare Effect (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Ensnare Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25565"]}}}
+{"ref": "Maim (Tier 3)", "better": 0, "matchers": [{"string": "Maim (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56389"]}}}
+{"ref": "Lesser Impale Chance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Impale Chance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54252"]}}}
+{"ref": "Impale Chance (Tier 2)", "better": 0, "matchers": [{"string": "Impale Chance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_11497"]}}}
+{"ref": "Greater Impale Chance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Impale Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_29720"]}}}
+{"ref": "Mirage Archer (Tier 3)", "better": 0, "matchers": [{"string": "Mirage Archer (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37727"]}}}
+{"ref": "Multiple Totems (Tier 3)", "better": 0, "matchers": [{"string": "Multiple Totems (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_17097"]}}}
+{"ref": "Gilded Secondary Shots (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Secondary Shots (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_18499"]}}}
+{"ref": "Lesser Rage on Hit (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Rage on Hit (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55249"]}}}
+{"ref": "Rage on Hit (Tier 2)", "better": 0, "matchers": [{"string": "Rage on Hit (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64986"]}}}
+{"ref": "Greater Rage on Hit (Tier 3)", "better": 0, "matchers": [{"string": "Greater Rage on Hit (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_57658"]}}}
+{"ref": "Gilded Cull (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Cull (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42140"]}}}
+{"ref": "Lesser Faster Attacks (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Faster Attacks (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52447"]}}}
+{"ref": "Faster Attacks (Tier 2)", "better": 0, "matchers": [{"string": "Faster Attacks (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_987"]}}}
+{"ref": "Greater Faster Attacks (Tier 3)", "better": 0, "matchers": [{"string": "Greater Faster Attacks (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50485"]}}}
+{"ref": "Lesser Concentrated Effect (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Concentrated Effect (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42698"]}}}
+{"ref": "Concentrated Effect (Tier 2)", "better": 0, "matchers": [{"string": "Concentrated Effect (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_21489"]}}}
+{"ref": "Greater Concentrated Effect (Tier 3)", "better": 0, "matchers": [{"string": "Greater Concentrated Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_51806"]}}}
+{"ref": "Lesser DoT Multiplier (Tier 1)", "better": 0, "matchers": [{"string": "Lesser DoT Multiplier (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_22977"]}}}
+{"ref": "DoT Multiplier (Tier 2)", "better": 0, "matchers": [{"string": "DoT Multiplier (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_6927"]}}}
+{"ref": "Greater DoT Multiplier (Tier 3)", "better": 0, "matchers": [{"string": "Greater DoT Multiplier (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37460"]}}}
+{"ref": "Lesser Ironwood (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Ironwood (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_230"]}}}
+{"ref": "Ironwood (Tier 2)", "better": 0, "matchers": [{"string": "Ironwood (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_6667"]}}}
+{"ref": "Greater Ironwood (Tier 3)", "better": 0, "matchers": [{"string": "Greater Ironwood (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_1227"]}}}
+{"ref": "Gilded Hinder Duration (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Hinder Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3180"]}}}
+{"ref": "Gilded Additional Duration (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Additional Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55998"]}}}
+{"ref": "Gilded Area per Projectile (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Area per Projectile (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_28387"]}}}
+{"ref": "Gilded Beam Width (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Beam Width (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_13568"]}}}
+{"ref": "Lesser Physical as Extra (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Physical as Extra (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_28037"]}}}
+{"ref": "Physical as Extra (Tier 2)", "better": 0, "matchers": [{"string": "Physical as Extra (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_39342"]}}}
+{"ref": "Greater Physical as Extra (Tier 3)", "better": 0, "matchers": [{"string": "Greater Physical as Extra (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_45050"]}}}
+{"ref": "Lesser Infused Channelling (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Infused Channelling (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59986"]}}}
+{"ref": "Infused Channelling (Tier 2)", "better": 0, "matchers": [{"string": "Infused Channelling (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_34697"]}}}
+{"ref": "Greater Infused Channelling (Tier 3)", "better": 0, "matchers": [{"string": "Greater Infused Channelling (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_63104"]}}}
+{"ref": "Return (Tier 3)", "better": 0, "matchers": [{"string": "Return (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_5293"]}}}
+{"ref": "Lesser Wither on Hit (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Wither on Hit (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_53673"]}}}
+{"ref": "Wither on Hit (Tier 2)", "better": 0, "matchers": [{"string": "Wither on Hit (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_15235"]}}}
+{"ref": "Greater Wither on Hit (Tier 3)", "better": 0, "matchers": [{"string": "Greater Wither on Hit (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_61510"]}}}
+{"ref": "Gilded Sphere Frequency (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Sphere Frequency (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_12569"]}}}
+{"ref": "Maximum Shock Effect (Tier 3)", "better": 0, "matchers": [{"string": "Maximum Shock Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64801"]}}}
+{"ref": "Lesser Critical Chance (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Critical Chance (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_23209"]}}}
+{"ref": "Critical Chance (Tier 2)", "better": 0, "matchers": [{"string": "Critical Chance (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_61471"]}}}
+{"ref": "Greater Critical Chance (Tier 3)", "better": 0, "matchers": [{"string": "Greater Critical Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_62220"]}}}
+{"ref": "Lesser Slower Projectiles (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Slower Projectiles (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_15866"]}}}
+{"ref": "Slower Projectiles (Tier 2)", "better": 0, "matchers": [{"string": "Slower Projectiles (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_2210"]}}}
+{"ref": "Greater Slower Projectiles (Tier 3)", "better": 0, "matchers": [{"string": "Greater Slower Projectiles (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_44952"]}}}
+{"ref": "Lesser Faster Projectiles (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Faster Projectiles (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25199"]}}}
+{"ref": "Faster Projectiles (Tier 2)", "better": 0, "matchers": [{"string": "Faster Projectiles (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_57644"]}}}
+{"ref": "Greater Faster Projectiles (Tier 3)", "better": 0, "matchers": [{"string": "Greater Faster Projectiles (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_14517"]}}}
+{"ref": "Physical as Extra Chaos (Tier 2)", "better": 0, "matchers": [{"string": "Physical as Extra Chaos (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_51009"]}}}
+{"ref": "Greater Physical as Extra Chaos (Tier 3)", "better": 0, "matchers": [{"string": "Greater Physical as Extra Chaos (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58214"]}}}
+{"ref": "Second Wind (Tier 3)", "better": 0, "matchers": [{"string": "Second Wind (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50475"]}}}
+{"ref": "Gilded Additional Leech (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Additional Leech (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56511"]}}}
+{"ref": "Gilded Wither Stacks (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Wither Stacks (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55952"]}}}
+{"ref": "Gilded Maximum Stages (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Maximum Stages (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_48614"]}}}
+{"ref": "Gilded Damage from Life (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Damage from Life (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_9300"]}}}
+{"ref": "Lesser Brutality (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Brutality (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55807"]}}}
+{"ref": "Brutality (Tier 2)", "better": 0, "matchers": [{"string": "Brutality (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64271"]}}}
+{"ref": "Greater Brutality (Tier 3)", "better": 0, "matchers": [{"string": "Greater Brutality (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59345"]}}}
+{"ref": "Gilded Clone Speed (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Clone Speed (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56315"]}}}
+{"ref": "Lesser Elemental Focus (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Elemental Focus (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30359"]}}}
+{"ref": "Elemental Focus (Tier 2)", "better": 0, "matchers": [{"string": "Elemental Focus (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37388"]}}}
+{"ref": "Greater Elemental Focus (Tier 3)", "better": 0, "matchers": [{"string": "Greater Elemental Focus (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31600"]}}}
+{"ref": "Lesser Pierce (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Pierce (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_6040"]}}}
+{"ref": "Pierce (Tier 2)", "better": 0, "matchers": [{"string": "Pierce (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56267"]}}}
+{"ref": "Greater Pierce (Tier 3)", "better": 0, "matchers": [{"string": "Greater Pierce (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_27970"]}}}
+{"ref": "Lesser Critical Damage (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Critical Damage (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_30688"]}}}
+{"ref": "Critical Damage (Tier 2)", "better": 0, "matchers": [{"string": "Critical Damage (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32189"]}}}
+{"ref": "Greater Critical Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Critical Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55659"]}}}
+{"ref": "Lesser Minion Damage (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Minion Damage (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_8821"]}}}
+{"ref": "Minion Damage (Tier 2)", "better": 0, "matchers": [{"string": "Minion Damage (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_28579"]}}}
+{"ref": "Greater Minion Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Minion Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52472"]}}}
+{"ref": "Lesser Warcry Speed (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Warcry Speed (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_55470"]}}}
+{"ref": "Warcry Speed (Tier 2)", "better": 0, "matchers": [{"string": "Warcry Speed (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_47477"]}}}
+{"ref": "Greater Warcry Speed (Tier 3)", "better": 0, "matchers": [{"string": "Greater Warcry Speed (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52142"]}}}
+{"ref": "Lesser Chaos Penetration (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Chaos Penetration (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25880"]}}}
+{"ref": "Chaos Penetration (Tier 2)", "better": 0, "matchers": [{"string": "Chaos Penetration (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_33975"]}}}
+{"ref": "Greater Chaos Penetration (Tier 3)", "better": 0, "matchers": [{"string": "Greater Chaos Penetration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_39984"]}}}
+{"ref": "Gilded Cascade Count (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Cascade Count (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32431"]}}}
+{"ref": "Gilded Voltaxic Conversion (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Voltaxic Conversion (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_17946"]}}}
+{"ref": "Lesser Minion Life (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Minion Life (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_23582"]}}}
+{"ref": "Minion Life (Tier 2)", "better": 0, "matchers": [{"string": "Minion Life (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_20579"]}}}
+{"ref": "Greater Minion Life (Tier 3)", "better": 0, "matchers": [{"string": "Greater Minion Life (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31863"]}}}
+{"ref": "Multistrike (Tier 2)", "better": 0, "matchers": [{"string": "Multistrike (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_62638"]}}}
+{"ref": "Greater Multistrike (Tier 3)", "better": 0, "matchers": [{"string": "Greater Multistrike (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25973"]}}}
+{"ref": "Lesser Added Fire (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Added Fire (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42977"]}}}
+{"ref": "Added Fire (Tier 2)", "better": 0, "matchers": [{"string": "Added Fire (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_45439"]}}}
+{"ref": "Greater Added Fire (Tier 3)", "better": 0, "matchers": [{"string": "Greater Added Fire (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_6121"]}}}
+{"ref": "Lesser Melee Physical Damage (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Melee Physical Damage (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64940"]}}}
+{"ref": "Melee Physical Damage (Tier 2)", "better": 0, "matchers": [{"string": "Melee Physical Damage (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_53516"]}}}
+{"ref": "Greater Melee Physical Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Melee Physical Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_63342"]}}}
+{"ref": "Combustion (Tier 3)", "better": 0, "matchers": [{"string": "Combustion (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58581"]}}}
+{"ref": "Minion Caustic Death (Tier 3)", "better": 0, "matchers": [{"string": "Minion Caustic Death (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_13016"]}}}
+{"ref": "Multiple Traps (Tier 3)", "better": 0, "matchers": [{"string": "Multiple Traps (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_2555"]}}}
+{"ref": "Arcane Traps (Tier 3)", "better": 0, "matchers": [{"string": "Arcane Traps (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_14557"]}}}
+{"ref": "Lesser Leech (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Leech (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32130"]}}}
+{"ref": "Leech (Tier 2)", "better": 0, "matchers": [{"string": "Leech (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3240"]}}}
+{"ref": "Greater Leech (Tier 3)", "better": 0, "matchers": [{"string": "Greater Leech (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_41756"]}}}
+{"ref": "Lesser Throwing Speed (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Throwing Speed (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32260"]}}}
+{"ref": "Throwing Speed (Tier 2)", "better": 0, "matchers": [{"string": "Throwing Speed (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_3465"]}}}
+{"ref": "Greater Throwing Speed (Tier 3)", "better": 0, "matchers": [{"string": "Greater Throwing Speed (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_58938"]}}}
+{"ref": "Lesser Trap and Mine Damage (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Trap and Mine Damage (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_49954"]}}}
+{"ref": "Trap and Mine Damage (Tier 2)", "better": 0, "matchers": [{"string": "Trap and Mine Damage (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31171"]}}}
+{"ref": "Greater Trap and Mine Damage (Tier 3)", "better": 0, "matchers": [{"string": "Greater Trap and Mine Damage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59079"]}}}
+{"ref": "Charged Traps (Tier 3)", "better": 0, "matchers": [{"string": "Charged Traps (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_5081"]}}}
+{"ref": "Lesser Trigger Radius (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Trigger Radius (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40446"]}}}
+{"ref": "Trigger Radius (Tier 2)", "better": 0, "matchers": [{"string": "Trigger Radius (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_819"]}}}
+{"ref": "Greater Trigger Radius (Tier 3)", "better": 0, "matchers": [{"string": "Greater Trigger Radius (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_54156"]}}}
+{"ref": "Gilded Purified Ground (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Purified Ground (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56144"]}}}
+{"ref": "Lesser Mitigation Ignore (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Mitigation Ignore (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_16261"]}}}
+{"ref": "Mitigation Ignore (Tier 2)", "better": 0, "matchers": [{"string": "Mitigation Ignore (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_4351"]}}}
+{"ref": "Greater Mitigation Ignore (Tier 3)", "better": 0, "matchers": [{"string": "Greater Mitigation Ignore (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_33557"]}}}
+{"ref": "Gilded Ash (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Ash (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37275"]}}}
+{"ref": "Gilded Stun Duration (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Stun Duration (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26618"]}}}
+{"ref": "Gilded Frenzy (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Frenzy (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_48738"]}}}
+{"ref": "Gilded Increased Angle (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Increased Angle (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_39050"]}}}
+{"ref": "Gilded Physical Damage Reduction (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Physical Damage Reduction (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26792"]}}}
+{"ref": "Fist of War (Tier 3)", "better": 0, "matchers": [{"string": "Fist of War (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_12347"]}}}
+{"ref": "Gilded Extra Targets (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Extra Targets (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_37259"]}}}
+{"ref": "Gilded Power Charge on Critical Strike (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Power Charge on Critical Strike (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_6109"]}}}
+{"ref": "Gilded Crush (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Crush (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_39307"]}}}
+{"ref": "Lesser Pulverise (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Pulverise (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_35729"]}}}
+{"ref": "Pulverise (Tier 2)", "better": 0, "matchers": [{"string": "Pulverise (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64717"]}}}
+{"ref": "Greater Pulverise (Tier 3)", "better": 0, "matchers": [{"string": "Greater Pulverise (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_64416"]}}}
+{"ref": "Lesser Increased Area of Effect (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Increased Area of Effect (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_22670"]}}}
+{"ref": "Increased Area of Effect (Tier 2)", "better": 0, "matchers": [{"string": "Increased Area of Effect (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_53342"]}}}
+{"ref": "Greater Area of Effect (Tier 3)", "better": 0, "matchers": [{"string": "Greater Area of Effect (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_19113"]}}}
+{"ref": "Lesser Excommunicate (Tier 1)", "better": 0, "matchers": [{"string": "Lesser Excommunicate (Tier 1)"}], "trade": {"ids": {"mercenary": ["mercenary.support_29922"]}}}
+{"ref": "Excommunicate (Tier 2)", "better": 0, "matchers": [{"string": "Excommunicate (Tier 2)"}], "trade": {"ids": {"mercenary": ["mercenary.support_45433"]}}}
+{"ref": "Greater Excommunicate (Tier 3)", "better": 0, "matchers": [{"string": "Greater Excommunicate (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_8617"]}}}
+{"ref": "Hallow (Tier 3)", "better": 0, "matchers": [{"string": "Hallow (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_56233"]}}}
+{"ref": "Gilded Nova (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Nova (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_42155"]}}}
+{"ref": "Gilded Jolt (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Jolt (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40212"]}}}
+{"ref": "Gilded Voltage (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Voltage (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_22587"]}}}
+{"ref": "Gilded Chain Distance (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Chain Distance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_31571"]}}}
+{"ref": "Gilded Inhibitor (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Inhibitor (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_21678"]}}}
+{"ref": "Gilded Freezer Burn (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Freezer Burn (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_17213"]}}}
+{"ref": "Gilded Archers (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Archers (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_52378"]}}}
+{"ref": "Gilded Electrocuting (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Electrocuting (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_26713"]}}}
+{"ref": "Gilded Scorch Chance (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Scorch Chance (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_19004"]}}}
+{"ref": "Gilded Searing Agony (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Searing Agony (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_50273"]}}}
+{"ref": "Gilded Devotion (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Devotion (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_40676"]}}}
+{"ref": "Gilded Hopelessness (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Hopelessness (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_38317"]}}}
+{"ref": "Gilded Reactor (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Reactor (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25885"]}}}
+{"ref": "Gilded Conflagrant (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Conflagrant (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_59468"]}}}
+{"ref": "Gilded Divine Shield (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Divine Shield (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_4032"]}}}
+{"ref": "Gilded Snaking (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Snaking (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_4006"]}}}
+{"ref": "Gilded Blasting (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Blasting (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_49189"]}}}
+{"ref": "Gilded Pierce (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Pierce (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_10482"]}}}
+{"ref": "Gilded Uncertainty (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Uncertainty (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_11052"]}}}
+{"ref": "Gilded Lumbering Dead (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Lumbering Dead (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_29562"]}}}
+{"ref": "Gilded Grasp (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Grasp (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_32361"]}}}
+{"ref": "Gilded Totemic Onslaught (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Totemic Onslaught (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_25001"]}}}
+{"ref": "Gilded Scattershot (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Scattershot (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_60983"]}}}
+{"ref": "Gilded Bitterwound (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Bitterwound (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_51944"]}}}
+{"ref": "Gilded Molten Eruption (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Molten Eruption (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_2205"]}}}
+{"ref": "Gilded Inversion (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Inversion (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_62171"]}}}
+{"ref": "Gilded Extra Armaments (Tier 3)", "better": 0, "matchers": [{"string": "Gilded Extra Armaments (Tier 3)"}], "trade": {"ids": {"mercenary": ["mercenary.support_8720"]}}}

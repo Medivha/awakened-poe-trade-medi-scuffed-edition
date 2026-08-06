@@ -80,6 +80,18 @@ export function createFilters (
     }
     return filters
   }
+  if (item.mercenary && item.info.mercenary) {
+    // the build name maps 1:1 onto the trade type
+    // ("Infamous Manyshot" -> "EleBowRangerClonesNoble")
+    filters.searchExact = {
+      baseType: item.info.name,
+      baseTypeTrade: item.info.mercenary.tradeType
+    }
+    filters.discriminator = {
+      trade: item.info.tradeDisc!
+    }
+    return filters
+  }
   if (item.info.refName === 'Scrying Orb') {
     filters.searchExact = {
       baseType: item.info.name,

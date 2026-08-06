@@ -10,7 +10,7 @@ import { mapProps, valdoBadMods } from './pseudo/maps'
 import { applyFlaskHybridMod } from './pseudo/flasks'
 import { applyHeistRules } from './pseudo/heist'
 import { decodeOils, applyAnointmentRules } from './pseudo/anointments'
-import { StatBetter, CLIENT_STRINGS } from '@/assets/data'
+import { StatBetter, CLIENT_STRINGS, STAT_BY_REF_V2 } from '@/assets/data'
 
 export interface FiltersCreationContext {
   readonly item: ParsedItem
@@ -138,6 +138,55 @@ export function createExactStatFilters (
   return ctx.filters
 }
 
+// Mercenary Warrants: one filter row per skill and per support. All start
+// disabled — the warrant's build already implies its skill set (measured:
+// adding the skill narrows results by only 0.3%), so enabling them by
+// default would just burn the trade query's complexity budget.
+function filterMercenary (ctx: FiltersCreationContext) {
+  const merc = ctx.item.mercenary
+  if (!merc) return
+
+  const lookup = (ref: string) => {
+    const found = STAT_BY_REF_V2(ref)
+    if (!found || 'stats' in found) return undefined
+    return found.trade.ids.mercenary ? found : undefined
+  }
+
+  for (const skill of merc.skills) {
+    const skillStat = lookup(skill.name)
+    if (!skillStat) continue
+
+    const skillId = skillStat.trade.ids.mercenary[0]
+
+    ctx.filters.push({
+      tradeId: skillStat.trade.ids.mercenary,
+      statRef: skill.name,
+      text: skill.name,
+      tag: FilterTag.MercenarySkill,
+      mercenaryGroup: skill.name,
+      mercenarySkillId: skillId,
+      sources: [],
+      disabled: true
+    })
+
+    for (const support of skill.supports) {
+      const supportStat = lookup(support)
+      if (!supportStat) continue
+
+      ctx.filters.push({
+        tradeId: supportStat.trade.ids.mercenary,
+        statRef: support,
+        text: support,
+        tag: FilterTag.MercenarySupport,
+        mercenaryGroup: skill.name,
+        mercenarySkillId: skillId,
+        sources: [],
+        disabled: true
+      })
+    }
+  }
+}
+
 export function initUiModFilters (
   item: ParsedItem,
   opts: {
@@ -182,6 +231,8 @@ export function initUiModFilters (
   if (item.isVeiled) {
     ctx.filters.forEach(filter => { filter.disabled = true })
   }
+
+  filterMercenary(ctx)
 
   finalFilterTweaks(ctx)
 

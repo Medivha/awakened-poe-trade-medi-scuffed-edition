@@ -89,7 +89,7 @@ interface TradeRequest {
     name?: string | { discriminator: string, option: string }
     type?: string | { discriminator: string, option: string }
     stats: Array<{
-      type: 'and' | 'if' | 'count' | 'not'
+      type: 'and' | 'if' | 'count' | 'not' | 'mercenary'
       value?: FilterRange
       filters: Array<{
         id: string
@@ -571,7 +571,30 @@ export function createTradeRequest (filters: ItemFilters, stats: StatFilter[]) {
     filters: []
   }
 
+  // Mercenary Warrants: the trade API scopes a `mercenary` group to a single
+  // skill, so one group per skill is mandatory (two skill ids in one group
+  // match nothing). The skill id is always included, otherwise the group
+  // would match those supports on any skill.
+  const mercenaryGroups = new Map<string, BareStatFilter[]>()
   for (const stat of realStats) {
+    if (!stat.mercenaryGroup || stat.disabled) continue
+    const group = mercenaryGroups.get(stat.mercenaryGroup) ?? []
+    group.push(stat)
+    mercenaryGroups.set(stat.mercenaryGroup, group)
+  }
+  for (const [, stats] of mercenaryGroups) {
+    const skillId = stats[0].mercenarySkillId!
+    const ids = new Set(stats.map(stat => stat.tradeId[0]))
+    ids.add(skillId) // always scope the group to its skill
+    query.stats.push({
+      type: 'mercenary',
+      value: { min: ids.size },
+      filters: [...ids].map(id => ({ id }))
+    })
+  }
+
+  for (const stat of realStats) {
+    if (stat.mercenaryGroup) continue // handled above
     if (stat.not) {
       for (const id of stat.tradeId) {
         qNot.filters.push(tradeIdToQuery(id, stat))

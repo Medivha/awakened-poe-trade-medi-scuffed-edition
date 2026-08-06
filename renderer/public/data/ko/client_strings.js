@@ -22,6 +22,10 @@ export default {
   ITEM_CLASS: '아이템 종류: ',
   ITEM_LEVEL: '아이템 레벨: ',
   CORPSE_LEVEL: '시신 레벨: ',
+  // TODO(crowdin): untranslated
+  MERCENARY_BUILD: 'Build: ',
+  MERCENARY_LEVEL: 'Mercenary Level: ',
+  MERCENARY_REINFORCE: 'Reinforce:',
   TALISMAN_TIER: '부적 등급: ',
   GEM_LEVEL: '레벨: ',
   STACK_SIZE: '중첩 개수: ',

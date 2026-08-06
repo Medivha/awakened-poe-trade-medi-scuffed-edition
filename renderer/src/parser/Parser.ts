@@ -42,6 +42,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   { virtual: findInDatabase },
   // -----------
   parseItemLevel,
+  parseMercenary,
   parseTalismanTier,
   parseGem,
   parseArmour,
@@ -74,6 +75,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseModifiers, // implicit
   parseModifiers, // explicit
   { virtual: transformToLegacyModifiers },
+  { virtual: parseMercenarySkills },
   { virtual: parseFractured },
   { virtual: parseBlightedMap },
   { virtual: pickCorrectVariant },
@@ -462,6 +464,54 @@ function parseUnidentified (section: string[], item: ParsedItem) {
     return 'SECTION_PARSED'
   }
   return 'SECTION_SKIPPED'
+}
+
+function parseMercenary (section: string[], item: ParsedItem) {
+  if (!section[0]?.startsWith(_$.MERCENARY_BUILD)) return 'SECTION_SKIPPED'
+
+  const mercenary: NonNullable<ParsedItem['mercenary']> = {
+    build: section[0].slice(_$.MERCENARY_BUILD.length),
+    level: 0,
+    skills: []
+  }
+  for (const line of section) {
+    if (line.startsWith(_$.MERCENARY_LEVEL)) {
+      mercenary.level = Number(line.slice(_$.MERCENARY_LEVEL.length))
+    }
+  }
+  item.mercenary = mercenary
+  return 'SECTION_PARSED'
+}
+
+// NOTE: a warrant has an arbitrary number of skill sections, so they are
+// collected from rawText instead of consuming one parser slot each.
+function parseMercenarySkills (item: ParsedItem) {
+  if (!item.mercenary) return
+
+  const sections = item.rawText
+    .split('--------')
+    .map(s => s.split(/\r?\n/).map(l => l.trim()).filter(Boolean))
+
+  // layout: ... | <mercenary name> | Build:/Mercenary Level: | <skills...>
+  // everything before the Build section is header, so skills start after it.
+  const buildAt = sections.findIndex(section =>
+    section[0]?.startsWith(_$.MERCENARY_BUILD))
+  if (buildAt === -1) return
+
+  for (const section of sections.slice(buildAt + 1)) {
+    const head = section[0]
+    if (!head) continue
+    if (head.startsWith(_$.MERCENARY_REINFORCE)) continue
+    // trailing help text is prose; skill names never end with a period
+    if (head.endsWith('.')) continue
+
+    item.mercenary.skills.push({
+      name: head,
+      // the game writes "(Tier: 2)", trade filters use "(Tier 2)"
+      supports: section.slice(1).map(line =>
+        line.replace(/\(Tier: (\d+)\)/, '(Tier $1)'))
+    })
+  }
 }
 
 function parseItemLevel (section: string[], item: ParsedItem) {

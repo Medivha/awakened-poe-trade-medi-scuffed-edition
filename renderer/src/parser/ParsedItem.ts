@@ -44,6 +44,14 @@ export interface ParsedItem {
     moreCurrency?: number
     moreDivCards?: number
   }
+  mercenary?: {
+    build: string
+    level: number
+    skills: Array<{
+      name: string
+      supports: string[]
+    }>
+  }
   gemLevel?: number
   imbuedGem?: boolean
   areaLevel?: number

@@ -22,6 +22,10 @@ export default {
   ITEM_CLASS: 'Класс предмета: ',
   ITEM_LEVEL: 'Уровень предмета: ',
   CORPSE_LEVEL: 'Уровень трупа: ',
+  // TODO(crowdin): untranslated
+  MERCENARY_BUILD: 'Build: ',
+  MERCENARY_LEVEL: 'Mercenary Level: ',
+  MERCENARY_REINFORCE: 'Reinforce:',
   TALISMAN_TIER: 'Уровень талисмана: ',
   GEM_LEVEL: 'Уровень: ',
   STACK_SIZE: 'Размер стопки: ',

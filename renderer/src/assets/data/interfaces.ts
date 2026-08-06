@@ -95,6 +95,10 @@ export interface BaseType {
   map?: {
     screenshot?: string
   }
+  mercenary?: {
+    build: string
+    tradeType: string
+  }
   gem?: {
     vaal?: true
     transfigured?: true
@@ -131,6 +135,9 @@ export interface TranslationDict {
   ITEM_CLASS: string
   ITEM_LEVEL: string
   CORPSE_LEVEL: string
+  MERCENARY_BUILD: string
+  MERCENARY_LEVEL: string
+  MERCENARY_REINFORCE: string
   TALISMAN_TIER: string
   GEM_LEVEL: string
   STACK_SIZE: string

@@ -125,6 +125,12 @@ export interface StatFilter {
   }
   hidden?: string
   disabled: boolean // NOTE: mutable in UI
+  // groups mercenary skill/support filters into one `type: 'mercenary'`
+  // trade group per skill. holds the skill name.
+  mercenaryGroup?: string
+  // trade id of the group's skill, carried by every member so the query
+  // builder can always scope the group without needing `statRef`.
+  mercenarySkillId?: string
 }
 
 const _INTERNAL_TRADE_IDS = [
@@ -180,6 +186,8 @@ export enum FilterTag {
   Eldritch = 'eldritch',
   Variant = 'variant',
   Property = 'property',
+  MercenarySkill = 'mercenary-skill',
+  MercenarySupport = 'mercenary-support',
   Shaper = 'explicit-shaper',
   Elder = 'explicit-elder',
   Crusader = 'explicit-crusader',
