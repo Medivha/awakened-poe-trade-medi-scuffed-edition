@@ -94,6 +94,12 @@ export function createFilters (
     filters.discriminator = {
       trade: item.info.tradeDisc!
     }
+    if (item.mercenary.level) {
+      filters.itemLevel = {
+        value: item.mercenary.level,
+        disabled: false
+      }
+    }
     return filters
   }
   if (item.info.refName === 'Scrying Orb') {

@@ -477,6 +477,9 @@ function parseMercenary (section: string[], item: ParsedItem) {
   for (const line of section) {
     if (line.startsWith(_$.MERCENARY_LEVEL)) {
       mercenary.level = Number(line.slice(_$.MERCENARY_LEVEL.length))
+      // trade indexes the mercenary's level as the item level: `ilvl` has a
+      // hard cliff at 84 (2866 hits at >=83, 1 at >=84), so 83 is the cap
+      item.itemLevel = mercenary.level
     }
   }
   item.mercenary = mercenary
