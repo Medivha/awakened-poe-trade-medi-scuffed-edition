@@ -79,12 +79,24 @@
             ><i class="fas text-xs" :class="collapsedGroups.has(group.skill.statRef)
               ? 'fa-chevron-right' : 'fa-chevron-down'" /></button>
             <span class="flex-1 text-gray-200">{{ group.skill.text }}</span>
+            <button type="button" class="rounded px-2 text-xs leading-5"
+              :class="!groupActive(group)
+                ? 'bg-gray-800 text-gray-600'
+                : (group.skill.mercenaryMode === 'loose'
+                    ? 'bg-gray-700 text-orange-300'
+                    : 'bg-gray-700 text-blue-300')"
+              :title="t('filters.mercenary_mode_hint')"
+              @click="cycleMode(group)"
+            >{{ !groupActive(group) ? t('filters.mercenary_off')
+              : (group.skill.mercenaryMode === 'loose'
+                  ? t('filters.mercenary_loose') : t('filters.mercenary_strict')) }}</button>
             <span class="text-xs text-gray-500"
               >{{ groupActive(group) }}/{{ group.supports.length + 1 }}</span>
             <input type="number" min="1" :max="group.supports.length + 1"
               v-model.number="group.skill.mercenaryMin"
+              :disabled="group.skill.mercenaryMode === 'loose'"
               :placeholder="String(groupActive(group) || 1)"
-              class="w-12 rounded bg-gray-900 text-center text-gray-200"
+              class="w-12 rounded bg-gray-900 text-center text-gray-200 disabled:opacity-30"
               :title="t('filters.mercenary_min')" />
           </div>
           <template v-if="!collapsedGroups.has(group.skill.statRef)">
@@ -219,6 +231,21 @@ export default defineComponent({
       },
       groupActive (group: { skill: StatFilter, supports: StatFilter[] }) {
         return [group.skill, ...group.supports].filter(s => !s.disabled).length
+      },
+      // off -> strict -> loose -> off. "off" means nothing checked, so it is
+      // expressed by clearing the rows rather than by a stored state.
+      cycleMode (group: { skill: StatFilter, supports: StatFilter[] }) {
+        const rows = [group.skill, ...group.supports]
+        const active = rows.filter(row => !row.disabled).length
+        if (!active) {
+          group.skill.disabled = false
+          group.skill.mercenaryMode = 'strict'
+        } else if (group.skill.mercenaryMode === 'strict') {
+          group.skill.mercenaryMode = 'loose'
+        } else {
+          for (const row of rows) row.disabled = true
+          group.skill.mercenaryMode = 'strict'
+        }
       },
       showUnknownMods,
       hasStats: computed(() =>

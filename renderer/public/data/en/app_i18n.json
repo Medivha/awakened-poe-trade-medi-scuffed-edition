@@ -196,7 +196,11 @@
     "tag_explicit_essence": "Essence",
     "mercenary_min": "Minimum matches for this skill group",
     "tag_mercenary_skill": "skill",
-    "tag_mercenary_support": "support"
+    "tag_mercenary_support": "support",
+    "mercenary_strict": "exact",
+    "mercenary_loose": "loose",
+    "mercenary_off": "off",
+    "mercenary_mode_hint": "exact: all on the same skill (uses one stat group). loose: anywhere on the mercenary (free, avoids \"query too complex\")."
   },
   "online_filter": {
     "offline_toggle": "Offline & Online",

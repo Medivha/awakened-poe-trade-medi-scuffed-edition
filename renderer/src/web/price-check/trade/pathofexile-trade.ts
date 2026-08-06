@@ -585,7 +585,19 @@ export function createTradeRequest (filters: ItemFilters, stats: StatFilter[]) {
   for (const [, stats] of mercenaryGroups) {
     const skillId = stats[0].mercenarySkillId!
     const ids = new Set(stats.map(stat => stat.tradeId[0]))
-    ids.add(skillId) // always scope the group to its skill
+
+    // 'loose': drop the filters into the shared `and` group. The warrant must
+    // have them, but they may sit on different skills. Costs no stat group,
+    // which is what keeps the query under the API's complexity limit.
+    const mode = stats.find(stat => stat.mercenaryMode != null)?.mercenaryMode
+    if (mode === 'loose') {
+      for (const id of ids) {
+        qAnd.filters.push({ id })
+      }
+      continue
+    }
+
+    ids.add(skillId) // 'strict': scope the group to its skill
     // the skill row carries the group's user-set minimum
     const userMin = stats.find(stat => stat.mercenaryMin != null)?.mercenaryMin
     query.stats.push({

@@ -134,6 +134,14 @@ export interface StatFilter {
   // only on the skill row: how many of the group's filters must match.
   // undefined = all of them. NOTE: mutable in UI
   mercenaryMin?: number
+  // only on the skill row. NOTE: mutable in UI
+  //   'strict' -> its own `type: 'mercenary'` group, so every filter must
+  //               match on the SAME skill. costs one stat group.
+  //   'loose'  -> filters go into the shared `and` group: the warrant must
+  //               have them somewhere, not necessarily on this skill.
+  //               costs no extra group, which keeps the trade query under
+  //               the "too complex" limit.
+  mercenaryMode?: 'strict' | 'loose'
 }
 
 const _INTERNAL_TRADE_IDS = [

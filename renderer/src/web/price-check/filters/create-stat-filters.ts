@@ -169,6 +169,7 @@ function filterMercenary (ctx: FiltersCreationContext) {
       tag: FilterTag.MercenarySkill,
       mercenaryGroup: skill.name,
       mercenarySkillId: skillId,
+      mercenaryMode: 'strict',
       sources: [],
       disabled: true
     })

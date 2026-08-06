@@ -40,7 +40,11 @@ export function createFilters (
 
   if (!opts.currency) {
     if ((!item.info.craftable || CONSUMABLE_CRAFTABLE_ITEM.has(item.category!)) &&
-      item.rarity !== ItemRarity.Unique
+      item.rarity !== ItemRarity.Unique &&
+      // warrants are cheap and priced all over the place; "Chaos Orb
+      // Equivalent" (the option with no id) sorts them far better than
+      // restricting the listings to chaos/divine
+      !item.mercenary
     ) {
       filters.trade.currency = 'chaos_divine'
     }
