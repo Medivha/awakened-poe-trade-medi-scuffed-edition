@@ -135,6 +135,10 @@ export function createExactStatFilters (
     enableGoodRolledFilters(ctx.filters, 0.66)
   }
 
+  // last: the loops above force-enable every non-Explicit filter, and
+  // mercenary rows must stay disabled by default
+  filterMercenary(ctx)
+
   return ctx.filters
 }
 
