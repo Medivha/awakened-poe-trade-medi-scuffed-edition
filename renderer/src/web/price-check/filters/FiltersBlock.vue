@@ -71,7 +71,32 @@
           :item="item"
           :show-sources="showFilterSources"
           @submit="handleStatsSubmit" />
-        <div v-if="!filteredStats.length && !showUnknownMods"
+        <div v-for="group of mercenaryGroups" :key="group.skill.statRef"
+          class="border-b border-gray-700">
+          <div class="flex items-center gap-x-2 py-1">
+            <button type="button" class="w-5 text-gray-500"
+              @click="toggleGroup(group.skill.statRef)"
+            ><i class="fas text-xs" :class="collapsedGroups.has(group.skill.statRef)
+              ? 'fa-chevron-right' : 'fa-chevron-down'" /></button>
+            <span class="flex-1 text-gray-200">{{ group.skill.text }}</span>
+            <span class="text-xs text-gray-500"
+              >{{ groupActive(group) }}/{{ group.supports.length + 1 }}</span>
+            <input type="number" min="1" :max="group.supports.length + 1"
+              v-model.number="group.skill.mercenaryMin"
+              :placeholder="String(groupActive(group) || 1)"
+              class="w-12 rounded bg-gray-900 text-center text-gray-200"
+              :title="t('filters.mercenary_min')" />
+          </div>
+          <template v-if="!collapsedGroups.has(group.skill.statRef)">
+            <filter-modifier v-for="filter of [group.skill, ...group.supports]"
+              :key="group.skill.statRef + '/' + filter.text"
+              :filter="filter"
+              :item="item"
+              :show-sources="showFilterSources"
+              @submit="handleStatsSubmit" />
+          </template>
+        </div>
+        <div v-if="!filteredStats.length && !mercenaryGroups.length && !showUnknownMods"
           class="border-b border-gray-700 py-2">{{ t('filters.empty') }}</div>
         <template v-if="showUnknownMods">
           <unknown-modifier v-for="stat of item.unknownModifiers" :key="stat.type + '/' + stat.text"
@@ -92,7 +117,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, watch, shallowRef, shallowReactive, computed, PropType } from 'vue'
+import { defineComponent, watch, shallowRef, shallowReactive, reactive, computed, PropType } from 'vue'
 import { useI18n } from 'vue-i18n'
 import UiToggle from '@/web/ui/UiToggle.vue'
 import FilterModifier from './FilterModifier.vue'
@@ -134,10 +159,12 @@ export default defineComponent({
     const statsVisibility = shallowReactive({ disabled: false })
     const showHidden = shallowRef(false)
     const showFilterSources = shallowRef(false)
+    const collapsedGroups = reactive(new Set<string>())
 
     watch(() => props.item, () => {
       showHidden.value = false
       statsVisibility.disabled = false
+      collapsedGroups.clear()
     })
 
     const showUnknownMods = computed(() =>
@@ -157,12 +184,42 @@ export default defineComponent({
         return props.stats.filter(stat => !stat.disabled).length
       }),
       filteredStats: computed(() => {
+        // mercenary rows render in their own grouped section below
+        const stats = props.stats.filter(s => !s.mercenaryGroup)
         if (showHidden.value) {
-          return props.stats.filter(s => s.hidden)
+          return stats.filter(s => s.hidden)
         } else {
-          return props.stats.filter(s => !s.hidden)
+          return stats.filter(s => !s.hidden)
         }
       }),
+      // one entry per mercenary skill: the skill row plus its supports.
+      // the trade API scopes a `mercenary` group to a single skill, so this
+      // grouping mirrors exactly what gets sent.
+      mercenaryGroups: computed(() => {
+        const groups = new Map<string, { skill: StatFilter, supports: StatFilter[] }>()
+        for (const stat of props.stats) {
+          if (!stat.mercenaryGroup) continue
+          let group = groups.get(stat.mercenaryGroup)
+          if (!group) {
+            group = { skill: stat, supports: [] }
+            groups.set(stat.mercenaryGroup, group)
+          }
+          if (stat.statRef === stat.mercenaryGroup) {
+            group.skill = stat
+          } else {
+            group.supports.push(stat)
+          }
+        }
+        return [...groups.values()]
+      }),
+      collapsedGroups,
+      toggleGroup (name: string) {
+        if (collapsedGroups.has(name)) collapsedGroups.delete(name)
+        else collapsedGroups.add(name)
+      },
+      groupActive (group: { skill: StatFilter, supports: StatFilter[] }) {
+        return [group.skill, ...group.supports].filter(s => !s.disabled).length
+      },
       showUnknownMods,
       hasStats: computed(() =>
         props.stats.length ||

@@ -586,9 +586,11 @@ export function createTradeRequest (filters: ItemFilters, stats: StatFilter[]) {
     const skillId = stats[0].mercenarySkillId!
     const ids = new Set(stats.map(stat => stat.tradeId[0]))
     ids.add(skillId) // always scope the group to its skill
+    // the skill row carries the group's user-set minimum
+    const userMin = stats.find(stat => stat.mercenaryMin != null)?.mercenaryMin
     query.stats.push({
       type: 'mercenary',
-      value: { min: ids.size },
+      value: { min: Math.min(userMin ?? ids.size, ids.size) },
       filters: [...ids].map(id => ({ id }))
     })
   }

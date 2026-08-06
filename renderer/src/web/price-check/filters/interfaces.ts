@@ -131,6 +131,9 @@ export interface StatFilter {
   // trade id of the group's skill, carried by every member so the query
   // builder can always scope the group without needing `statRef`.
   mercenarySkillId?: string
+  // only on the skill row: how many of the group's filters must match.
+  // undefined = all of them. NOTE: mutable in UI
+  mercenaryMin?: number
 }
 
 const _INTERNAL_TRADE_IDS = [
